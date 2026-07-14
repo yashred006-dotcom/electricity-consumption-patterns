@@ -1,0 +1,28 @@
+Plugging into the Future: An Exploration of Electricity Consumption Patterns Using 
+Tableau 
+BRAINSTORMING RESULTS 
+Methodology: The team used a Mind-Mapping technique to evaluate how to best visualize 
+the "Historic Shift" in energy consumption. 
+To arrive at the final project design, the following ideas were explored during the ideation 
+phase: 
+Idea 1: Real-time Monitoring (Discarded) 
+●  Concept: Live streaming of grid data. 
+●  Reason for Rejection: Too complex for the current project scope and requires 
+expensive hardware sensors (IoT). 
+Idea 2: Comparative Historical Analysis (Selected) 
+●  Concept: Comparing 2019 (Normal) vs. 2020 (Lockdown) using Tableau. 
+●  Why it won: It provides the best "Business Intelligence" value by showing how 
+extreme events change energy behavior. 
+Idea 3: Sector-Specific Deep Dive (Integrated)  
+●  Concept: Filtering consumption by Residential, Industrial, and Commercial. 
+●  Why it won: It allows utility companies to see exactly why the load dropped 
+(Commercial shutdown) and where it moved (Residential). 
+Idea 4: Web-Based Portal (Selected) 
+●  Concept: Embedding Tableau into HTML/CSS/Flask. 
+●  Why it won: Makes the data accessible to users who don’t have Tableau installed, 
+ensuring stakeholders can view it via any browser. 
+Finalized Scope (Activity 1.1, 1.2, 1.3): 
+●  Feature 1: Comparison of Total Consumption between 2019 and 2020. 
+●  Feature 2: Month-wise line charts showing the "Lockdown Dip." 
+●  Feature 3: Regional Usage hierarchies (NR, WR, SR, ER, NER). 
+●  Feature 4: Web-integration using Flask for stakeholder accessibilit
